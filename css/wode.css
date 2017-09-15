@@ -2,7 +2,7 @@
 * @Author: 王晨
 * @Date:   2017-09-12 23:45:04
 * @Last Modified by:   王晨
-* @Last Modified time: 2017-09-15 11:59:23
+* @Last Modified time: 2017-09-15 16:29:29
 */
 /* 头部开始 */
 
@@ -91,6 +91,12 @@ main{
     border-radius: 2px;
     font-size: .14rem;
     text-align: center;
+}
+.dengluanniu a{
+	color: #000;
+}
+.yijiandenglu a{
+	color: #de181b;
 }
 .yijiandenglu{
 	height: .45rem;
