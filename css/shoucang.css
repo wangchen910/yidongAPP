@@ -2,7 +2,7 @@
 * @Author: 王晨
 * @Date:   2017-09-14 08:44:23
 * @Last Modified by:   王晨
-* @Last Modified time: 2017-09-14 09:25:44
+* @Last Modified time: 2017-09-15 10:14:28
 */
 /* 头部开始 */
 @font-face {
@@ -24,7 +24,7 @@
 header{
 	width: 100%;
 	height: 0.66rem;
-	background-color: #ff6699;
+	background-color: #de181b;
 /* 	background-color: #ffffff; */
 	overflow: hidden;
 	position: fixed;

@@ -2,7 +2,7 @@
 * @Author: 王晨
 * @Date:   2017-09-06 00:27:00
 * @Last Modified by:   王晨
-* @Last Modified time: 2017-09-11 22:14:09
+* @Last Modified time: 2017-09-15 09:34:18
 */
 /* 头部开始 */
 @font-face {
@@ -24,7 +24,7 @@
 header{
 	width: 100%;
 	height: 0.66rem;
-	background-color: #ff6699;
+	background-color: #de181b;
 /* 	background-color: #ffffff; */
 	overflow: hidden;
 	position: fixed;
@@ -64,8 +64,8 @@ header{
 	margin-top: .102rem;
 }
 .head-dian li:nth-child(2){
-	width: .12rem;
-	height: .12rem;
+	width: .10rem;
+	height: .10rem;
 	background-color: #fff;
 	margin-top: .08rem;
 	margin-right: .06rem;
@@ -92,13 +92,12 @@ main{
 }
 .banner{
 	width: 100%;
-	height: 1.05rem;
+	height: 2.1rem;
 	background-color: #c5d4f5;
 }
 .fuwu{
 	width: 100%;
 	height: .54rem;
-	background: pink;
 	float: left;
 	padding: .08rem 0;
 }
@@ -119,16 +118,20 @@ main{
 .tuijian{
 	float: left;
 	width: 100%;
-	background-color: yellowgreen;
 	padding: .10rem .05rem;
 	display: flex;
 	justify-content: space-around;
 }
+
 .tuijian-img{
 	width: .80em;
 	height: .80em;
 	border-radius: 50%;
 	background-color: gold;
+	float: left;
+	overflow: hidden;
+}
+.tuijian-img img{
 	float: left;
 }
 .tuijian-zongyuan p{
@@ -160,6 +163,7 @@ main{
     overflow: hidden;
     padding: .15rem 0;
     border-bottom: 0.05rem solid #F2F5F8;
+    background-color: #fff;
 }
 .shangping-img{
 	width: 1rem;
@@ -188,7 +192,7 @@ main{
 }
 .shangping-jiage p span{
 	font-size: 0.2rem;
-    color: #ff6699;	
+    color: #f23030;	
     float: left;
 }
 .shangping-qukaituan{
@@ -196,7 +200,7 @@ main{
     height: 0.3rem;
     line-height: 0.305rem;
     text-align: center;
-    background-color: #ff6699;
+    background-color: #f23030;
     color: #fff;
     font-size: 0.14rem;
     border-radius: 0.2rem;
@@ -205,7 +209,7 @@ main{
 }
 .gengduo{
 	border-top: 1px solid #eee;
-    color: #f36;
+    color: #f23030;
     padding: .15rem;
     text-align: center;
     font-size: .12rem;
@@ -238,7 +242,7 @@ footer{
 	color: #666;
 }
 .dibu-daohang .dibu-tubiao1 i{
-	color: pink;
+	color: #de181b;
 }
 .dibu-wenzi{
 	font-size: 0.125rem;
@@ -248,5 +252,5 @@ footer{
 	color: #666;
 }
 .dibu-wenzi1{
-	color: pink;
+	color: #de181b;
 }

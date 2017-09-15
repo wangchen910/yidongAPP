@@ -2,7 +2,7 @@
 * @Author: 王晨
 * @Date:   2017-09-14 00:00:57
 * @Last Modified by:   王晨
-* @Last Modified time: 2017-09-14 00:43:03
+* @Last Modified time: 2017-09-15 09:54:22
 */
 /* 头部开始 */
 @font-face {
@@ -41,7 +41,7 @@ main{
     font-size: .16rem;
 }
 .jiage{
-	color: #f69;
+	color: #f15353;
     font-size: .16rem;
 }
 .xiaoliao{
@@ -56,10 +56,13 @@ main{
 	width: 100%;
 }
 .pingjia-box{
-    width: 25%;
+    width: 95%;
     padding: .3rem 0;
     color: #333;
     font-size: .14rem;
+}
+.pingjia-box i{
+	float: right;
 }
 /* 内容结束 */
 
@@ -94,7 +97,7 @@ footer{
 	color: #666;
 }
 .dibu-daohang .dibu-tubiao1 i{
-	color: pink;
+	color: #f15353;
 }
 .dibu-wenzi{
 	font-size: 0.125rem;
@@ -104,20 +107,21 @@ footer{
 	color: #666;
 }
 .dibu-wenzi1{
-	color: pink;
+	color: #f15353;
 }
 .jiaru{
 	color: #333;
-    background: #ffe817;
-    font-size: 0.20rem;
+    background: #ffb03f;
+    font-size: 0.15rem;
     text-align: center;
     float: left;
     height: 100%;
     line-height: .49rem;
 }
 .jiaru1	{
+	width: .7rem;
 	color: #333;
-    background: pink;
+    background: #f23030;
     font-size: 0.25rem;
     text-align: center;
     float: left;

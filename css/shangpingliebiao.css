@@ -2,7 +2,7 @@
 * @Author: 王晨
 * @Date:   2017-09-14 09:27:51
 * @Last Modified by:   王晨
-* @Last Modified time: 2017-09-14 09:53:53
+* @Last Modified time: 2017-09-15 10:09:54
 */
 /* 头部开始 */
 @font-face {
@@ -24,15 +24,21 @@
 header{
 	width: 100%;
 	height: 0.50rem;
-	background-color: #ff6699;
+/* 	background-color: #de181b; */
 /* 	background-color: #ffffff; */
 	overflow: hidden;
 	position: fixed;
 	top: 0;
 	left: 0;
 }
+.head{
+	width: 100%;
+	float: left;
+	border-bottom: 1px #de181b solid;
+}
 .head-top{
 	width: 100%;
+	float: left;
 }
 .head-box{
 	width: 33.3333%;
@@ -40,11 +46,11 @@ header{
 	line-height: .5rem;
 	font-size: 0.14rem;
     text-align: center;
-    background: white;
+    background: #fff;
     float: left;
 }
 .head-box1{
-	color: pink;
+	color: #de181b;
 }
 
 /* 内容开始 */

@@ -2,7 +2,7 @@
 * @Author: 王晨
 * @Date:   2017-09-14 10:55:13
 * @Last Modified by:   王晨
-* @Last Modified time: 2017-09-14 14:24:24
+* @Last Modified time: 2017-09-15 10:11:28
 */
 @font-face {
   font-family: 'iconfont';  /* project id 401031 */
@@ -23,7 +23,7 @@
 header{
 	width: 100%;
 	height: .66rem;
-	background-color: #ff6699;
+	background-color: #efefef;
 /* 	background-color: #ffffff; */
 	overflow: hidden;
 	position: fixed;
